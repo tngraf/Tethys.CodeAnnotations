@@ -9,7 +9,7 @@
 // ===========================================================================
 //
 // <copyright file="AssemblyInfo.cs" company="Tethys">
-// Copyright  2015 by Thomas Graf
+// Copyright  2015-2016 by Thomas Graf
 //            All rights reserved.
 //            Licensed under the Apache License, Version 2.0.
 //            Unless required by applicable law or agreed to in writing, 
@@ -18,7 +18,7 @@
 //            either express or implied. 
 // </copyright>
 //
-// System ... Microsoft .Net Framework 4.5
+// System ... Microsoft .Net Framework 4.5.1
 // Tools .... Microsoft Visual Studio 2013
 //
 // ---------------------------------------------------------------------------
@@ -35,7 +35,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Tethys")]
 [assembly: AssemblyProduct("Tethys.CodeAnnotations")]
-[assembly: AssemblyCopyright("Copyright © 2015 by Thomas Graf")]
+[assembly: AssemblyCopyright("Copyright © 2015-2016 by Thomas Graf")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -47,7 +47,7 @@ using System.Runtime.InteropServices;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("0cdc4d2b-1233-45fb-9ec4-48bff5bdaeb1")]
 
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.1.0")]
+[assembly: AssemblyFileVersion("1.0.1.0")]
 
 // =================================

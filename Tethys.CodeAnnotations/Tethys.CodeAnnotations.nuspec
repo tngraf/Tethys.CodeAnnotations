@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Tethys.CodeAnnotations</id>
+    <version>1.0.1</version>
+    <title>Tethys.CodeAnnotations</title>
+    <authors>Thomas Graf</authors>
+    <owners>Thomas Graf</owners>
+	<copyright>Copyright (C) 2009-2016 T. Graf</copyright>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/tngraf/Tethys.CodeAnnotations/</projectUrl>
+    <iconUrl>http://www.4wp7.de/tethys/tethyb32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A standard JetBrains ReSharper code annotation attributes implementation.</description>
+    <releaseNotes></releaseNotes>
+    <language>en-US</language>
+    <tags>Tethys CodeAnnotations</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Tethys.CodeAnnotations.dll" target="lib\net451" />
+	<file src="bin\Release\Tethys.CodeAnnotations.pdb" target="lib\net451" />
+  </files> 
+</package>
