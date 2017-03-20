@@ -21,7 +21,7 @@ All original code is from JetBrains ReSharper ([http://www.jetbrains.com/resharp
 
 Copyright (c) 2007-2012 JetBrains s.r.o.
 
-Copyright for modifications (c) 2915 T. Graf.
+Copyright for modifications (c) 2015 T. Graf.
 
 Licensed under the **Apache License, Version 2.0** (the "License");
 you may not use this file except in compliance with the License.
