@@ -18,14 +18,14 @@ All original code is from JetBrains ReSharper ([http://www.jetbrains.com/resharp
 
 ### Requisites ###
 
-* Visual Studio 2013
-* Microsoft .Net Framework 4.5.1
+* Visual Studio 2019
+* Microsoft .Net Standard 2.0
 
 ## Copyright & License ##
 
 Copyright (c) 2007-2012 JetBrains s.r.o.
 
-Copyright for modifications (c) 2015 T. Graf.
+Copyright for modifications (c) 2015-2020 T. Graf.
 
 Licensed under the **Apache License, Version 2.0** (the "License");
 you may not use this file except in compliance with the License.

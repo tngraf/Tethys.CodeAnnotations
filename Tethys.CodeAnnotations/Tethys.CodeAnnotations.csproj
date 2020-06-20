@@ -1,62 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D55922A6-220D-4280-A0E4-C29718A27071}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tethys.CodeAnnotations</RootNamespace>
-    <AssemblyName>Tethys.CodeAnnotations</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright © 2015-2020 T. Graf</Copyright>
+    <Description>A standard JetBrains ReSharper code annotation attributes implementation.</Description>
+    <PackageProjectUrl>https://github.com/tngraf/Tethys.CodeAnnotations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tngraf/Tethys.CodeAnnotations</RepositoryUrl>
+    <PackageIcon>tethys_icon.png</PackageIcon>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DocumentationFile>bin\Tethys.CodeAnnotations.xml</DocumentationFile>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net461|AnyCPU'">
+    <DocumentationFile>bin\Tethys.CodeAnnotations.xml</DocumentationFile>
   </PropertyGroup>
+
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
+    <None Include="..\tethys_icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="PathReferenceAttribute.cs" />
-    <Compile Include="PureAttribute.cs" />
-    <Compile Include="InstantHandleAttribute.cs" />
-    <Compile Include="PublicAPIAttribute.cs" />
-    <Compile Include="MeansImplicitUseAttribute.cs" />
-    <Compile Include="UsedImplicitlyAttribute.cs" />
-    <Compile Include="BaseTypeRequiredAttribute.cs" />
-    <Compile Include="CannotApplyEqualityOperatorAttribute.cs" />
-    <Compile Include="LocalizationRequiredAttribute.cs" />
-    <Compile Include="ContractAnnotationAttribute.cs" />
-    <Compile Include="NotifyPropertyChangedInvocatorAttribute.cs" />
-    <Compile Include="InvokerParameterNameAttribute.cs" />
-    <Compile Include="StringFormatMethodAttribute.cs" />
-    <Compile Include="NotNullAttribute.cs" />
-    <Compile Include="CanBeNullAttribute.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+
 </Project>
