@@ -2,6 +2,7 @@ Tethys.CodeAnnotations
 ======================
 
 [![Build status](https://ci.appveyor.com/api/projects/status/thumn04j1c7og7c0?svg=true)](https://ci.appveyor.com/project/tngraf/tethys-codeannotations)
+![.NET Core](https://github.com/tngraf/Tethys.CodeAnnotations/workflows/.NET%20Core/badge.svg)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 
