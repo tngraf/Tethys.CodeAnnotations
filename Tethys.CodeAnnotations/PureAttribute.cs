@@ -44,7 +44,7 @@ namespace Tethys.CodeAnnotations
     /// [Pure] private int Multiply(int x, int y) { return x * y; }
     /// public void Foo() {
     ///   const int a = 2, b = 2;
-    ///   Multiply(a, b); // Waring: Return value of pure method is not used
+    ///   Multiply(a, b); // Warning: Return value of pure method is not used
     /// }
     /// </code></example>
     [AttributeUsage(AttributeTargets.Method, Inherited = true)]
